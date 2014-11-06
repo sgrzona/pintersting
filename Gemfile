@@ -13,9 +13,9 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'bcrypt-ruby', '~> 3.1.2'
-
+gem 'paperclip', github: 'thoughtbot/paperclip'
 group :development, :test do
- gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :production do
